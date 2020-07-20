@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    background-image: url(https://elitefon.ru/pic/201211/1920x1080/elitefon.ru-25837.jpg);
+}
+
+h1 {
+    font-family: 'Marck Script', cursive;
+    color: #587493;
+    font-size: 6em;
+    font-weight: normal;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Poppins', cursive;
+    color: #587493;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Poppins', cursive;
+    color: #587493;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+input {
+    font-family: 'Poppins', cursive;
+    font-size: 1.4em;
+    font-weight: normal;
+    border: 1px solid rgba(255,255,255,0.6);
+    background: linear-gradient(#eee, #fff);
+    transition: all 0.3s ease-out;
+    box-shadow: inset 0 1px 4px rgba(0,0,0,0.4);
+    padding: 9px 20px;
+    color: #555;
+}
+
+button {
+    font-family: 'Poppins', cursive;
+    font-size: 1.4em;
+    display: inline-block;
+    margin: 10px;
+    color: #F7F4ED;
+    padding: 10px 124px;
+    background: #587493;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    box-shadow:
+            inset 0 1px 0 rgba(255,255,255,0.5),
+            0 2px 2px rgba(0,0,0,0.3),
+            0 0 4px 1px rgba(0,0,0,0.2);
+}
+
+table {
+    margin: auto;
+}
+
+span {
+    font-family: 'Poppins', cursive;
+    font-size: 1.4em;
+    color: #e02bad;
+}
+
+th {
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 25px;
+}
+td {
+    font-family: 'Poppins', cursive;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 15px;
+}
+
+tr:hover td {background: #ccddff;}
+
+a {
+
+    font-size: 40px;
+    color: #587493;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #154088;
+}
